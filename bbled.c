@@ -19,24 +19,24 @@ static int __init GPIO26_init(void)
 //	led.gpio = led_gpio_pin;
 //	led.flags = GPIOF_OUT_INIT_LOW;
 //	led.label = "Blue LED";
-	
+
 //	if (!gpio_is_valid(led_gpio_pin)) {
 //		printk(KERN_ALERT " GPIO number %d not valid.\n", led_gpio_pin);
 //		return -1;
 //	}
-	
+
 //	gprq = gpio_request(led_gpio_pin,"Blue LED");
-	
+
 //	if (gprq) {
 //		printk(KERN_ALERT "Gpio request failed.\n");
 //		return -2;
 //   }
-	
+
 //	printk(KERN_NOTICE "Set GPIO26 direction output\n");
 //	gpio_direction_output(led_gpio_pin, 0);
 //	printk(KERN_NOTICE "LED On\n");
 //	gpio_set_value(led_gpio_pin, 1);
-	
+
 	return 0;
 }
 
