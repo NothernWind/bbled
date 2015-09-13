@@ -1,7 +1,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include <linux/gpio.h>
+//#include <linux/gpio.h>
 
 //static int led_gpio_pin = 26;
 //module_param(led_gpio_pin, int, 0755);
